@@ -31,6 +31,18 @@ a{
 	color: seashell;
 	text-decoration: underline;
 }
+h2,h4{
+	padding: 10px;
+	margin: 0px;
+}
+h2{
+	font-weight: bold;
+	display: block;
+}
+h5{
+	font-weight: bold;
+	display: block;
+}
 
 .flex-container{
 	display: flex;
@@ -43,6 +55,21 @@ a{
 	opacity: 0.9;
 	margin: auto;
 }
+.item{
+	padding: 5px;
+}
+.item img{
+	height: 200px;
+
+	display: block;
+	margin: 10px;
+}
+.item span{
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
 #mission{
 	height: 700px;
 	background-image: url("../images/img-mission-background.jpg");
@@ -52,4 +79,11 @@ a{
 background-color: black;
 width: 100%;
 margin: auto;
+}
+
+#products{
+width: 1000px;
+height: 700px;
+margin: auto;
+padding: 70px;
 }
